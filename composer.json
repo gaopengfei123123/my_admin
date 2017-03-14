@@ -1,0 +1,19 @@
+{
+    "name": "gaopengfei/my_admin",
+    "description": "a back-end app",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gaofeifiy",
+            "email": "5173180@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": ["src/"],
+        "psr-4": {
+            "MYADMIN\\": "src/"
+        }
+    }
+}
